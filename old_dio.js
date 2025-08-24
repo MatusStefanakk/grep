@@ -1,28 +1,3 @@
-// ==UserScript==
-// @name		Stará verzia DIO
-// @name:fr		DIO-TOOLS-David1327
-// @namespace	https://www.tuto-de-david1327.com/pages/info/dio-tools-david1327.html
-// @version		4.33
-// @author		DIONY (changes and bug fixes by David1327)
-// @description Version 2023. DIO-Tools + Quack is a small extension for the browser game Grepolis. (counter, displays, smilies, trade options, changes to the layout)
-// @description:FR Version 2023. DIO-Tools + Quack est une petite extension du jeu par navigateur Grepolis. (compteur, affichages, smileys, options commerciales, modifications de la mise en page)
-// @match		https://*.grepolis.com/game/*
-// @match		https://*.forum.grepolis.com/*
-// @match		https://dio-david1327.github.io/*
-// @require		https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js
-// @resource 	clipboard		https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
-// @icon		https://dio-david1327.github.io/img/smileys/bussi2.gif
-// @icon64		https://www.tuto-de-david1327.com/medias/images/dio-tools-david1327.jpg
-// @copyright	2013+, DIONY and 2019+, David1327
-// @grant		GM_setValue
-// @grant		GM_getValue
-// @grant		GM_deleteValue
-// @grant		GM_xmlhttpRequest
-// @grant       GM_getResourceText
-// @license     GPL-3.0-only
-// @downloadURL none
-// ==/UserScript==
-
 let dio_version = GM.info.script.version;
 
 /*******************************************************************************************************************************
